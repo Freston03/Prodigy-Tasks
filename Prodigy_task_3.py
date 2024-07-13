@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("F:\\HR\\Customer-Churn-Records.csv")
 print(df.head())
-print(df.head())
 print(df.tail())
 print(df.columns)
 print(df.describe)
@@ -48,4 +47,3 @@ accuracy = accuracy_score(y_test,y_pred)
 print("Accuracy is : " , accuracy)
 
 print("Classification Report is :",classification_report(y_test,y_pred))
-
